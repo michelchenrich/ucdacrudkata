@@ -5,7 +5,7 @@ import kata.ucda.crud.entities.Joke;
 import kata.ucda.crud.entities.JokeBuilder;
 import kata.ucda.crud.entities.JokeValidationMessenger;
 
-public abstract class ModifyJokeCommand implements Cpmmand {
+public abstract class ModifyJokeCommand implements Command {
     protected JokeStore store;
     protected ModifyJokeRequest request;
     private JokeValidationMessenger messenger;
